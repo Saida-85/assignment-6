@@ -1,3 +1,12 @@
-export default function Home() {
-  return <h2>Homepage</h2>;
-}
+import Banner from "@/components/homepage/Banner";
+import React from "react";
+
+const page = () => {
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
+};
+
+export default page;

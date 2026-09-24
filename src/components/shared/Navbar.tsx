@@ -4,8 +4,8 @@ import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="border-b border-base-300 bg-base-100">
-      <div className="navbar mx-auto max-w-7xl px-4 lg:px-6 py-2">
+    <div className="sticky top-0 z-50 border-b border-base-300 bg-base-100/90 backdrop-blur-md">
+      <div className="navbar mx-auto max-w-7xl px-4 py-2 lg:px-6">
         {/* Left */}
         <div className="navbar-start">
           {/* Mobile Menu */}
@@ -36,7 +36,7 @@ const Navbar = () => {
               className="menu dropdown-content mt-3 w-52 rounded-box bg-base-100 p-2 shadow z-50"
             >
               <li>
-                <a className="bg-[#C2F800] text-black rounded-lg">Workouts</a>
+                <a className="bg-[#1A2312] text-black rounded-lg">Workouts</a>
               </li>
 
               <li>
@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal gap-3">
             <li>
-              <a className="rounded-xl bg-[#C2F800] px-5 py-2 font-semibold text-black">
+              <a className="rounded-xl bg-[#2e3d20] px-5 py-2 font-semibold text-[#C2F800]">
                 Workouts
               </a>
             </li>
