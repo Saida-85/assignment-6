@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import bannerImg from "@/assets/banner.png";
 import { Inter, Oswald } from "next/font/google";
 
@@ -37,11 +38,12 @@ const Banner = () => {
             into today&apos;s plan, and watch the week&apos;s work add up.
           </p>
 
-          <button
-            className={`${inter.className} mt-8 rounded-md border-0 bg-[#C2F800] px-6 py-3 text-xs font-bold uppercase text-black transition hover:bg-lime-300`}
+          <Link
+            href="/"
+            className={`${inter.className} inline-block mt-8 rounded-md border-0 bg-[#C2F800] px-6 py-3 text-xs font-bold uppercase text-black transition hover:bg-lime-300`}
           >
             BROWSE WORKOUTS
-          </button>
+          </Link>
         </div>
 
         {/* Right Image */}
