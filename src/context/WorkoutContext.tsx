@@ -82,7 +82,8 @@ export function WorkoutProvider({ children }: { children: React.ReactNode }) {
   };
 
   const markAsDone = (id: number) => {
-    toast.success("Workout marked as done! Great job! 🎉");
+    setPlan((prevPlan) => prevPlan.filter((w) => w.id !== id));
+    toast.success("Workout marked as done and removed! 🎉");
   };
 
   return (
