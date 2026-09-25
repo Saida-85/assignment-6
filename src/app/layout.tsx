@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar"; // Update this path
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/footer/Footer";
 import { WorkoutProvider } from "@/context/WorkoutContext";
 
 const geistSans = Geist({
@@ -33,7 +34,8 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-[#0F1115] text-white">
         <WorkoutProvider>
           <Navbar />
-          {children}
+          <main className="flex-1">{children}</main>
+          <Footer />
         </WorkoutProvider>
       </body>
     </html>
