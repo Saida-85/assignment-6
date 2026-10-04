@@ -6,7 +6,7 @@
 
 ## 🌐 Live Website
 
-[Visit Dev Stack]([https://dev-stack-sage.vercel.app/](https://assignment-6-gules-seven.vercel.app/))
+[Visit Dev Stack](https://dev-stack-sage.vercel.app/](https://assignment-6-gules-seven.vercel.app/))
 
 
 ## 🚀 Tech Stack
