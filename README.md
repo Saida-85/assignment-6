@@ -4,8 +4,7 @@
 
 ---
 
-## 🌐 Live Demo
-
+## 🌐 Live Website
 🔗 https://assignment-6-gules-seven.vercel.app/
 
 
