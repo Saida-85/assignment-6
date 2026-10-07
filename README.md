@@ -1,6 +1,6 @@
 # FitLog — Workout Library & Plan Manager
 
-**FitLog** is a dark, no-nonsense gym companion web application built with Next.js. It allows fitness enthusiasts to explore a comprehensive library of lifts, manage daily workout routines with a strict 5-lift cap, save items for later, and track metrics in real-time.
+**FitLog** is a modern gym companion web app built with Next.js and TypeScript. Explore a comprehensive lift library, manage daily routines, and track real-time metrics seamlessly.
 
 ---
 
